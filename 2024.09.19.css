@@ -452,7 +452,7 @@ body>footer>section>div>div>div.foot_nav>nav {
     font-style: normal !important;
     font-stretch: normal !important;
     letter-spacing: -0.04px !important;
-    line-height: 16px !important;
+    line-height: 30px !important;
     border-radius: 6px !important;
     transition: background 0.15s cubic-bezier(0.4, 0, 0.2, 1), color, opacity !important;
     user-select: none !important;
@@ -464,6 +464,11 @@ body>footer>section>div>div>div.foot_nav>nav {
     align-items: center !important;
 }
 
-.widget-title {
-    margin-bottom: 155px !important;
+div.ez-toc-widget-sticky-container,
+div.ez-toc-widget-sticky-container li {
+    line-height: 2.0 !important;
+}
+
+#ez-toc-widget-sticky-container>nav>ul {
+    margin-top: 130px;
 }
