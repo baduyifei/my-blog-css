@@ -472,3 +472,8 @@ div.ez-toc-widget-sticky-container li {
 #ez-toc-widget-sticky-container>nav>ul {
     margin-top: 130px;
 }
+
+#banner .carousel-indicators button {
+    width: 0px;
+    height: 0px;
+}
